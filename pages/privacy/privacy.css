@@ -1,0 +1,56 @@
+@import "../../css/global.css";
+
+.privacy-container {
+  margin-top: 96px;
+}
+
+.privaty-image {
+  margin-bottom: 24px;
+}
+.privaty-img-right {
+  display: block;
+  margin: 0;
+  float: right;
+}
+
+.privaty-h-text {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.privaty-paragraf-text {
+  margin-top: 8px;
+  margin-bottom: 72px;
+}
+
+.privacy-main {
+  padding-top: 96px;
+  padding-left: 221px;
+  height: 1304px;
+  background-color: #ecf8f9;
+}
+
+.privacy-text {
+  width: 841px;
+}
+
+.privacy-main-paragraf-text {
+  margin-top: 24px;
+}
+.privacy-heading {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.private-footer-text {
+  padding-top: 40px;
+  width: 841px;
+}
+
+.private-footer-heading {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}

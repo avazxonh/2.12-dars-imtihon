@@ -1,0 +1,75 @@
+@import "../../css/global.css";
+
+.career-container {
+  display: flex;
+  text-align: center;
+  margin-top: 96px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.career-caption {
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+}
+
+.career-heading {
+  width: 624px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #232536;
+  margin-bottom: 24px;
+}
+
+.career-paragraf {
+  width: 624px;
+  margin-bottom: 64px;
+}
+
+.career-paragraf-small {
+  margin-top: 80.06px;
+}
+
+.career-emoji {
+  margin-top: 16px;
+}
+
+.career-main-container {
+  background-color: #ecf8f9;
+}
+
+.career-text {
+  background-color: white;
+  width: 354px;
+  padding-top: 48px;
+  padding-left: 48px;
+  padding-bottom: 30px;
+}
+
+.career-text-heading {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
+}
+
+.career-text-paragraf {
+  color: #232536;
+  opacity: 60%;
+  padding-top: 10px;
+}
+
+.career-text-paragraf-two {
+  color: #232536;
+  opacity: 60%;
+  padding-top: 3px;
+}
+
+.career-text-img {
+  padding-top: 52px;
+  color: #5d5fef;
+}

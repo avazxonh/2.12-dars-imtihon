@@ -1,0 +1,129 @@
+@import "./button.css";
+@import "./fonts.css";
+@import "./header.css";
+@import "./footer.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232536;
+  
+}
+
+main {
+  flex-grow: 1;
+  margin-bottom: 96px;
+
+}
+
+#active {
+  border-top-color: #ffa155;
+}
+
+#active-footer-link {
+  color: #ffa155;
+}
+
+.container {
+  width: 100%;
+  max-width: 1380px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.cta {
+  color: #fff;
+}
+
+.cta-container {
+  margin-top: 96px;
+  padding-left: 0px;
+  padding-right: 0px;
+  max-width: 1300px;
+  background-color: #666dff;
+  padding: 96px;
+  background-image: url(../images/cta-shape-bg.svg),
+    url(../images/shape-pink-blue-vertikal.svg);
+  background-repeat: no-repeat;
+  background-position: top left, center right;
+  display: flex;
+  align-items: center;
+  gap: 122px;
+  
+}
+.container {
+}
+.cta-left {
+  width: 100%;
+  max-width: 488px;
+  
+}
+.cta-subtitle {
+  font-size: 14px;
+  margin-bottom: 13px;
+}
+.cta-title {
+  line-height: 54px;
+  font-size: 36px;
+}
+.cta-right {
+  width: 100%;
+}
+.cta-form {
+  max-width: 454px;
+  width: 100%;
+}
+
+.cta-input {
+  padding: 20px 29px;
+  font-family: inherit;
+  font-weight: 500;
+  width: 100%;
+}
+
+.cta-form .cta-input {
+  & {
+    border: 0;
+  }
+
+  &::placeholder {
+    color: #232536;
+    opacity: 40%;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.cta-input::placeholder {
+}

@@ -1,0 +1,11 @@
+@import "../../css/global.css";
+
+.contact-left {
+    margin-top: 96px;
+}
+
+
+.contact-divider {
+    width: 405px;
+    opacity: 20%;
+}
