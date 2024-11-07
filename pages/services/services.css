@@ -1,1 +1,26 @@
 @import "../../css/global.css";
+
+.services-section-top {
+  background-color: #ffe6d2;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.services-text {
+}
+.services-p {
+  font-weight: 500;
+  padding-bottom: 12px;
+}
+.services-h {
+    width: 622px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    padding-bottom: 24px;
+}
+.services-pa {
+    padding-bottom: 40px;
+    width: 624px;
+
+}
+
