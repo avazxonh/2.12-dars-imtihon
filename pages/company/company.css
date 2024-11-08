@@ -1,1 +1,61 @@
-@import "../../css/global.css"
+@import "../../css/global.css";
+
+.company-section-top {
+  padding-top: 96px;
+}
+.company-text {
+  background-image: url(../../images/Shapes\\(9\).svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.company-p-text {
+  font-weight: 500;
+  letter-spacing: 3px;
+  padding-top: 24px;
+}
+.company-h-text {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  width: 664px;
+  padding-top: 20px;
+}
+.company-pbig-text {
+  opacity: 87%;
+  padding-top: 24px;
+  width: 719px;
+  padding-bottom: 64px;
+}
+
+.company-top-img {
+  display: flex;
+  gap: 12px;
+  background-image: url(../../images/Group\1710\\(2\).svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.our-story {
+  padding-top: 96px;
+}
+
+.our-story-left {
+}
+.our-story-emoji {
+  padding-top: 16px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+}
+.our-story-from {
+  width: 549px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  padding-top: 16px;
+}
+.our-story-paragraph {
+  opacity: 87%;
+  width: 550px;
+  padding-top: 24px;
+}
