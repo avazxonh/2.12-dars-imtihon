@@ -38,13 +38,14 @@
   line-height: 36px;
 }
 .our-process {
+  background-color: #f9f9ff;
 }
 
 .our-process-class {
   background-image: url(../../images/shapes-home-right.svg);
   background-position: right top;
   background-repeat: no-repeat;
-  margin-top: 96px;
+  padding-top: 96px;
 }
 .our-process-paragraph {
   font-weight: 500;
@@ -89,8 +90,8 @@ testing {
   margin-bottom: 96px;
   padding-bottom: 28px;
   gap: 16px;
-  background-image: url(../../images/discover..svg), url(../../images/horizontal.svg),
-    url(../../images/01.svg);
+  background-image: url(../../images/discover..svg),
+    url(../../images/horizontal.svg), url(../../images/01.svg);
   background-repeat: no-repeat;
   background-position: 39px 39px, bottom center, 320px 12px;
 }
@@ -242,7 +243,50 @@ testing {
   padding-left: 40px;
   padding-bottom: 42px;
   background-image: url(../../images/vertikal.svg), url(../../images/chiz.svg),
-    url(../images/logoipsum.svg);
+    url(../../images/logoipsum.svg);
   background-repeat: no-repeat;
   background-position: center left, 510px -2px, 460px 265px;
+}
+
+.technial-container {
+}
+
+.technial-all {
+  display: flex;
+  gap: 140px;
+}
+.technial-left {
+  padding-top: 141px;
+  padding-bottom: 160px;
+}
+.technial-heading {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  padding-bottom: 16px;
+}
+.technial-headinn {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  padding-bottom: 24px;
+  width: 624px;
+}
+.technial-paragraph {
+  width: 622px;
+  opacity: 60%;
+}
+
+.bg-color {
+  background-color: #ecf8f9;
+}
+
+.devolopment-all {
+  display: flex;
+  gap: 140px;
+}
+
+.headint {
+  padding-top: 141px;
+  
 }
